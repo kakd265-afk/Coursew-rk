@@ -12,7 +12,7 @@ void fillRandom(double a[][MAX_N], int n);
 void printMatrix(double a[][MAX_N], int n);
 void avgEvenColumns(double a[][MAX_N], int n, double avgs[], int* count);
 
-void task2_run()
+void main()
 {
     srand((unsigned)time(NULL));
 
