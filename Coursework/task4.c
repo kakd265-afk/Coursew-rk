@@ -30,7 +30,7 @@ int compareByExporter(const void* a, const void* b);
 void linearSearch(const ExportRecord* recs, int count, const char* key, FILE* out);
 int binarySearch(const ExportRecord* recs, int count, const char* key);
 
-int task4_run(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
 
     ExportRecord* recs = NULL;
