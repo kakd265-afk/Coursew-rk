@@ -8,7 +8,7 @@
 int binToOctArray(char s[], char result[]);
 int binToOctPtr(char* s, char* result);
 
-int task1_run()
+int main()
 {
     char binary[N], resMas[N], resPtr[N];
     int choice;
