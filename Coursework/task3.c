@@ -9,7 +9,7 @@ unsigned char swapNibbles(unsigned char c);
 void getBinary(unsigned char val, char out[]);
 void printResultLine(FILE* out, unsigned char orig, unsigned char res);
 
-int task3_run(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
     FILE* fin = NULL;
     FILE* fout = NULL;
